@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Solid
+
+  Created by Matthew Hampel on 8/19/15.
+  Copyright © 2015 Matthew Hampel. All rights reserved.
+*/
+
+
+// Location lists
+"getStarted" = "Get started";
+
+"welcome" = "Hello Alicia";
+"welcomePrompt" = "All I want is";
+"food" = "Food.";
+"relax" = "Relaxation.";
+"impress" = "Impressive.";
+
+"locationPrompt" = "So we hear you're hungry at 2pm on a Friday";
+"restaurant1" = "Umi Sushi";
+"wildcard" =  "Wildcard";

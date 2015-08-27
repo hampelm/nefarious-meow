@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B950F2C61B83D5E200537F34 /* LocationChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */; };
+		B950F2C81B84E4EF00537F34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B950F2C71B84E4EF00537F34 /* Localizable.strings */; };
+		B950F2CA1B84E75200537F34 /* LocationListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950F2C91B84E75200537F34 /* LocationListItemView.swift */; };
+		B950F2CC1B864C9F00537F34 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */; };
+		B950F2D01B866E9900537F34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950F2CF1B866E9900537F34 /* Constants.swift */; };
+		B950F2D21B8770D000537F34 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950F2D11B8770D000537F34 /* Logger.swift */; };
+		B950F2D41B877C2700537F34 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */; };
+		B96043891B8CBEE000FEF406 /* AskForNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */; };
+		B960438B1B8CCAF900FEF406 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B960438A1B8CCAF900FEF406 /* Profile.swift */; };
 		B96A7FD31B82817B005840DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A7FD21B82817B005840DF /* AppDelegate.swift */; };
 		B96A7FD51B82817B005840DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A7FD41B82817B005840DF /* ViewController.swift */; };
 		B96A7FD81B82817B005840DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A7FD61B82817B005840DF /* Main.storyboard */; };
@@ -26,6 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationChoiceViewController.swift; sourceTree = "<group>"; };
+		B950F2C71B84E4EF00537F34 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../Localizable.strings; sourceTree = "<group>"; };
+		B950F2C91B84E75200537F34 /* LocationListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListItemView.swift; sourceTree = "<group>"; };
+		B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		B950F2CF1B866E9900537F34 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B950F2D11B8770D000537F34 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskForNameViewController.swift; sourceTree = "<group>"; };
+		B960438A1B8CCAF900FEF406 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		B96A7FCF1B82817B005840DF /* Solid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96A7FD21B82817B005840DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96A7FD41B82817B005840DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,9 +95,18 @@
 		B96A7FD11B82817B005840DF /* Solid */ = {
 			isa = PBXGroup;
 			children = (
+				B950F2C71B84E4EF00537F34 /* Localizable.strings */,
 				B96A7FD21B82817B005840DF /* AppDelegate.swift */,
 				B96A7FD41B82817B005840DF /* ViewController.swift */,
+				B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */,
+				B950F2D11B8770D000537F34 /* Logger.swift */,
+				B950F2C91B84E75200537F34 /* LocationListItemView.swift */,
+				B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */,
+				B960438A1B8CCAF900FEF406 /* Profile.swift */,
+				B950F2CF1B866E9900537F34 /* Constants.swift */,
 				B96A7FD61B82817B005840DF /* Main.storyboard */,
+				B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */,
+				B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */,
 				B96A7FD91B82817B005840DF /* Assets.xcassets */,
 				B96A7FDB1B82817B005840DF /* LaunchScreen.storyboard */,
 				B96A7FDE1B82817B005840DF /* Info.plist */,
@@ -145,6 +172,7 @@
 				TargetAttributes = {
 					B96A7FCE1B82817B005840DF = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HYB3PRKWF3;
 					};
 					B96A7FE21B82817B005840DF = {
 						CreatedOnToolsVersion = 7.0;
@@ -177,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96A7FDD1B82817B005840DF /* LaunchScreen.storyboard in Resources */,
+				B950F2C81B84E4EF00537F34 /* Localizable.strings in Resources */,
 				B96A7FDA1B82817B005840DF /* Assets.xcassets in Resources */,
 				B96A7FD81B82817B005840DF /* Main.storyboard in Resources */,
 			);
@@ -196,8 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B950F2D41B877C2700537F34 /* LocationDetailViewController.swift in Sources */,
+				B960438B1B8CCAF900FEF406 /* Profile.swift in Sources */,
+				B950F2CC1B864C9F00537F34 /* MainNavigationViewController.swift in Sources */,
+				B950F2CA1B84E75200537F34 /* LocationListItemView.swift in Sources */,
+				B950F2C61B83D5E200537F34 /* LocationChoiceViewController.swift in Sources */,
 				B96A7FD51B82817B005840DF /* ViewController.swift in Sources */,
+				B950F2D21B8770D000537F34 /* Logger.swift in Sources */,
 				B96A7FD31B82817B005840DF /* AppDelegate.swift in Sources */,
+				B96043891B8CBEE000FEF406 /* AskForNameViewController.swift in Sources */,
+				B950F2D01B866E9900537F34 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +363,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Solid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplify.Solid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,7 +376,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Solid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplify.Solid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,6 +428,7 @@
 				B96A7FEE1B82817B005840DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B96A7FEF1B82817B005840DF /* Build configuration list for PBXNativeTarget "SolidTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +437,7 @@
 				B96A7FF11B82817B005840DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
