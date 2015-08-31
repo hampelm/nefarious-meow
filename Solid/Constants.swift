@@ -14,4 +14,7 @@ struct Design {
   static let ROW_HEIGHT = CGFloat(70)
   
   static let BORDER_COLOR = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
+  
+  static let HeaderSize = 16
+  static let BodySize = 12
 }

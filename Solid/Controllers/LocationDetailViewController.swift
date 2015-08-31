@@ -19,10 +19,9 @@ class LocationDetailViewController: UIViewController {
     super.viewDidLoad()
 
     // Add the restaurant name
-    let restaurantName = UILabel()
+    let restaurantName = TitleLabel()
     let makeMeACalculatedVariable = CGFloat(250)
     restaurantName.frame = CGRectMake(Design.ROW_HEIGHT + Design.X_GUTTER, 0, makeMeACalculatedVariable, Design.ROW_HEIGHT)
-    restaurantName.backgroundColor = UIColor.blueColor()
     restaurantName.text = "Umi Sushi"
     self.view.addSubview(restaurantName)
   }

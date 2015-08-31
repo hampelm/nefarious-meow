@@ -22,6 +22,7 @@
 		B96A7FDA1B82817B005840DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A7FD91B82817B005840DF /* Assets.xcassets */; };
 		B96A7FDD1B82817B005840DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96A7FDB1B82817B005840DF /* LaunchScreen.storyboard */; };
 		B96A7FE81B82817B005840DF /* SolidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A7FE71B82817B005840DF /* SolidTests.swift */; };
+		B981127F1B94AB3200F8464B /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981127E1B94AB3200F8464B /* TitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B96A7FE31B82817B005840DF /* SolidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96A7FE71B82817B005840DF /* SolidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidTests.swift; sourceTree = "<group>"; };
 		B96A7FE91B82817B005840DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B981127E1B94AB3200F8464B /* TitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				B950F2C91B84E75200537F34 /* LocationListItemView.swift */,
+				B981127E1B94AB3200F8464B /* TitleLabel.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				B960438B1B8CCAF900FEF406 /* Profile.swift in Sources */,
 				B950F2CC1B864C9F00537F34 /* MainNavigationViewController.swift in Sources */,
 				B950F2CA1B84E75200537F34 /* LocationListItemView.swift in Sources */,
+				B981127F1B94AB3200F8464B /* TitleLabel.swift in Sources */,
 				B950F2C61B83D5E200537F34 /* LocationChoiceViewController.swift in Sources */,
 				B96A7FD51B82817B005840DF /* ViewController.swift in Sources */,
 				B950F2D21B8770D000537F34 /* Logger.swift in Sources */,
