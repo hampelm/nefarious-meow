@@ -35,18 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationChoiceViewController.swift; sourceTree = "<group>"; };
+		B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationChoiceViewController.swift; path = Controllers/LocationChoiceViewController.swift; sourceTree = "<group>"; };
 		B950F2C71B84E4EF00537F34 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../Localizable.strings; sourceTree = "<group>"; };
-		B950F2C91B84E75200537F34 /* LocationListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListItemView.swift; sourceTree = "<group>"; };
-		B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		B950F2C91B84E75200537F34 /* LocationListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationListItemView.swift; path = Views/LocationListItemView.swift; sourceTree = "<group>"; };
+		B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationViewController.swift; path = Controllers/MainNavigationViewController.swift; sourceTree = "<group>"; };
 		B950F2CF1B866E9900537F34 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B950F2D11B8770D000537F34 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
-		B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskForNameViewController.swift; sourceTree = "<group>"; };
-		B960438A1B8CCAF900FEF406 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationDetailViewController.swift; path = Controllers/LocationDetailViewController.swift; sourceTree = "<group>"; };
+		B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AskForNameViewController.swift; path = Controllers/AskForNameViewController.swift; sourceTree = "<group>"; };
+		B960438A1B8CCAF900FEF406 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Models/Profile.swift; sourceTree = "<group>"; };
 		B96A7FCF1B82817B005840DF /* Solid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96A7FD21B82817B005840DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B96A7FD41B82817B005840DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B96A7FD41B82817B005840DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Solid/Controllers/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		B96A7FD71B82817B005840DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B96A7FD91B82817B005840DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96A7FDC1B82817B005840DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,18 +95,15 @@
 		B96A7FD11B82817B005840DF /* Solid */ = {
 			isa = PBXGroup;
 			children = (
+				B981127D1B94A31D00F8464B /* Vendor */,
+				B981127B1B949F5A00F8464B /* Controllers */,
+				B981127A1B949F5400F8464B /* Views */,
+				B98112791B949F4D00F8464B /* Models */,
 				B950F2C71B84E4EF00537F34 /* Localizable.strings */,
 				B96A7FD21B82817B005840DF /* AppDelegate.swift */,
-				B96A7FD41B82817B005840DF /* ViewController.swift */,
-				B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */,
 				B950F2D11B8770D000537F34 /* Logger.swift */,
-				B950F2C91B84E75200537F34 /* LocationListItemView.swift */,
-				B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */,
-				B960438A1B8CCAF900FEF406 /* Profile.swift */,
 				B950F2CF1B866E9900537F34 /* Constants.swift */,
 				B96A7FD61B82817B005840DF /* Main.storyboard */,
-				B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */,
-				B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */,
 				B96A7FD91B82817B005840DF /* Assets.xcassets */,
 				B96A7FDB1B82817B005840DF /* LaunchScreen.storyboard */,
 				B96A7FDE1B82817B005840DF /* Info.plist */,
@@ -121,6 +118,41 @@
 				B96A7FE91B82817B005840DF /* Info.plist */,
 			);
 			path = SolidTests;
+			sourceTree = "<group>";
+		};
+		B98112791B949F4D00F8464B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B960438A1B8CCAF900FEF406 /* Profile.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B981127A1B949F5400F8464B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B950F2C91B84E75200537F34 /* LocationListItemView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B981127B1B949F5A00F8464B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B96A7FD41B82817B005840DF /* ViewController.swift */,
+				B950F2C51B83D5E200537F34 /* LocationChoiceViewController.swift */,
+				B950F2D31B877C2700537F34 /* LocationDetailViewController.swift */,
+				B96043881B8CBEE000FEF406 /* AskForNameViewController.swift */,
+				B950F2CB1B864C9F00537F34 /* MainNavigationViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B981127D1B94A31D00F8464B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
